@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>To Do</title>
+
+		<link href="/common/common.css" rel="stylesheet" />
+		<link href="/common/normalize.css" rel="stylesheet" />
+		<link href="/common/animation.css" rel="stylesheet" />
+		<link href="/common/icon.css" rel="stylesheet" />
+
+		<link href="/todo.css" rel="stylesheet" />
+	</head>
+
+	<body>
+
+		<header class="header d-flex">
+			<span class="icon-todo-logo"></span>
+			<span>To Do list</span>
+		</header>
+
+		<main class="main d-flex">
+
+			<section class="todo-content d-flex">
+				<div class="todo-input d-flex">
+					<span class="icon-todo-input"></span>
+					<span class="input d-flex">
+						<input type="text" name="new-todo" title="새로운 할 일" placeholder="해야할 일이 있나요?" />
+					</span>
+					<span class="todo-icon-select hide cursor" tabindex="0">
+						<span class="select icon-todo-heart"></span>
+						<div class="icon-option hide d-flex">
+							<span class="icon-todo-heart" tabindex="0"></span>
+							<span class="icon-todo-heart-half" tabindex="0"></span>
+							<span class="icon-todo-heart-full" tabindex="0"></span>
+						</div>
+					</span>
+				</div>
+
+				<div class="todo-list d-flex" placeholder="할 일을 전부 끝내셨군요! 😍"></div>
+					<!-- <div class="todo">
+						<span></span>
+						<span class="title">Home</span>
+						<span class="context-menu-btn">
+							<span class="icon-todo-heart"></span>
+							<span class="icon-todo-heart-half"></span>
+							<span class="icon-todo-heart-full"></span>
+						</span>
+						<span class="check">12</span>
+					</div> -->
+				</div>
+			</section>
+
+		</main>
+
+		<footer class="footer d-flex">
+			<span>Front-end study</span>
+			<span>2023</span>
+		</footer>
+
+		<script src="todo.js"></script>
+
+	</body>
+</html>

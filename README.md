@@ -1,2 +1,2 @@
-# todo
+# To Do list
 Frontend Study

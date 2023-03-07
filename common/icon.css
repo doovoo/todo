@@ -1,0 +1,49 @@
+/* https://icones.js.org/collection/typcn */
+
+.icon-todo-logo {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url("/images/icon/TypcnInputChecked.svg");
+}
+
+.icon-todo-input {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url("/images/icon/TypcnPencil.svg");
+}
+
+.icon-todo-control {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url("/images/icon/TypcnCog.svg");
+}
+.icon-todo-move {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url("/images/icon/TypcnEquals.svg");
+}
+
+.icon-todo-heart {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url("/images/icon/TypcnHeartOutline.svg");
+}
+
+.icon-todo-heart-half {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url("/images/icon/TypcnHeartHalfOutline.svg");
+}
+
+.icon-todo-heart-full {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url("/images/icon/TypcnHeartFullOutline.svg");
+}
